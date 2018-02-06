@@ -8,7 +8,7 @@ import {MediaService} from '../services/media.service';
 })
 export class TopBarComponent implements OnInit {
 
-  constructor(private mediaService: MediaService) { }
+  constructor(public mediaService: MediaService) { }
 
   ngOnInit() {
   }
